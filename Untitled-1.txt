@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Para Mi Amor</title>
+                <link rel="stylesheet" href="styles.css">
+                </head>
+                <body>
+                    <div class="container">
+                            <h1>Para Mi Hermosa Novia</h1>
+                                    <p>Te regalo este pequeño jardín de flores amarillas porque iluminas mi vida como el sol.</p>
+                                            <div class="flowers">
+                                                        <img src="https://source.unsplash.com/300x300/?yellow-flowers" alt="Flor Amarilla">
+                                                                    <img src="https://source.unsplash.com/300x300/?yellow-rose" alt="Rosa Amarilla">
+                                                                                <img src="https://source.unsplash.com/300x300/?sunflower" alt="Girasol">
+                                                                                        </div>
+                                                                                                <button onclick="showMessage()">Haz clic aquí</button>
+                                                                                                        <p id="message" style="display:none;">Eres la flor más hermosa de todas. Te amo ❤️</p>
+                                                                                                            </div>
+
+                                                                                                                <script>
+                                                                                                                        function showMessage() {
+                                                                                                                                        document.getElementById('message').style.display = 'block';
+                                                                                                                        }
+                                                                                                                            </script>
+                                                                                                                            </body>
+                                                                                                                            </html>
+                                                                                                                        }
+                                                                                                                       
